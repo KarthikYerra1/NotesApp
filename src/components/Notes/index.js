@@ -45,7 +45,7 @@ const Notes = () => {
 
   return (
     <NotesAppContainer>
-      <NotesAppHeading>Notes</NotesAppHeading>
+      <NotesAppHeading as="h1">Notes</NotesAppHeading>
       <InputsContainer onSubmit={submitForm}>
         <Input
           type="text"

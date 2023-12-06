@@ -12,12 +12,12 @@ export const NotesAppContainer = styled.div`
 `
 
 export const NotesAppHeading = styled.h1`
-  font-family: 'Bree serif';
   color: #4c63b6;
   font-size: 20px;
-  font-weight: 500;
+  font-family: Bree Serif;
+  font-weight: 600;
   @media screen and (min-width: 768px) {
-    font-size: 26px;
+    font-size: 28px;
   }
 `
 export const InputsContainer = styled.form`
